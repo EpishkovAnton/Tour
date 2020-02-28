@@ -5,7 +5,7 @@ $(document).ready(function(){
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
-        dots: true,
+        dots: false,
         arrows: false, 
         infinite: true,
       });     
@@ -18,3 +18,16 @@ $(document).ready(function() {
       });
  
 });
+
+$(document).ready(function(){
+  $('.gallery__slider').slick({
+      cssEase: 'linear',
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      dots: false,
+      arrows: true, 
+      infinite: true,
+    });     
+}); 
