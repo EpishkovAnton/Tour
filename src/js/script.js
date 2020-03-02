@@ -20,14 +20,20 @@ $(document).ready(function() {
 });
 
 $(document).ready(function(){
-  $('.gallery__slider').slick({
-      cssEase: 'linear',
+  $('.slider-two').slick({
+      easing: 'ease',
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 3000,
-      dots: false,
-      arrows: true, 
+      dots: true,
       infinite: true,
+      speed: 1000,
+      centerMode: false,
+      fade: true
+
+
+
+
     });     
 }); 
