@@ -3,7 +3,7 @@
     &__tabs
         margin-top: 40px
         display: flex
-        justify-content: center 
+        justify-content: center
         align-items: center
         list-style-type: none
         margin-bottom: 0
@@ -20,15 +20,14 @@
         border: 2px solid #d0d0d0
         text-align: center
         line-height: 50px
-       
         cursor: pointer
         transition: 0.5s all
         &:hover
-            box-shadow: 3px 3px 20px blue
+            box-shadow: 3px 3px 20px yellow
         div
-            
+
         &_active
-            background-color: blue
+            background-color: orange
             color: #ffffff
             border: none
 
@@ -39,41 +38,41 @@
         flex-wrap: wrap
         &_active
             display: flex
-        
+
     &-item
         width: 300px
         min-height: 440px
         border: 2px solid #e8e8e8
-        padding: 20px 20px 26px 20px 
+        padding: 20px 20px 26px 20px
         overflow: hidden
         margin-bottom: 20px
         &__img
             max-width: 100%
-            height: 200px 
+            height: 200px
             display: block
             margin: 0 auto
         &__subtittle
             margin-top: 20px
             color: white
             font-size: 16px
-            font-weight: 700 
-            text-align: center 
+            font-weight: 700
+            text-align: center
             font-family: 'Open Sans Light'
         &__descr
             margin-top: 16px
             color: white
             font-size: 14px
             font-weight: 300
-            text-align: center 
+            text-align: center
             font-family: 'Open Sans Light'
         &__link
             display: block
-            margin-top: 17px 
+            margin-top: 17px
             color: #c70101
             font-size: 14px
             font-weight: 500
-            text-decoration: underline 
-            text-align: center 
+            text-decoration: underline
+            text-align: center
             font-family: 'Open Sans Light'
             &:hover
                 color: #c70101
@@ -81,10 +80,10 @@
             background-color: #e8e8e8
             margin-top: 19px
             margin-bottom: 21px
-            border-bottom: none     
+            border-bottom: none
         &__footer
             display: flex
-            justify-content: space-between 
+            justify-content: space-between
             align-items: center
         &__old-price
             color: white
@@ -95,7 +94,7 @@
         &__price
             color: red
             font-size: 20px
-            font-weight: 700 
+            font-weight: 700
             font-family: 'Open Sans Light'
         &__wrapper
             display: flex
@@ -107,7 +106,7 @@
             transition: 0.5s all
             &_active
                 transform: translateX(0%)
-                margin-right: 20px        
+                margin-right: 20px
         &__list
             position: relative
             width: 50%
@@ -120,19 +119,28 @@
             margin-bottom: 0
             &_active
                 transform: translateX(-100%)
-                margin-left: 0 
+                margin-left: 0
+                font-size: 12px
             p
                 position: relative
                 color: white
-                font-size: 14px
+                font-size: 12px
                 font-weight: 400
                 margin-bottom: 20px
                 font-family: 'Open Sans Light'
+                a
+                    color: white
+                    color: #c70101
+                    font-family: 'Open Sans Light'
+                    text-transform: uppercase
+                    text-align: center
+                    font-size: 18px
+
         &__back
             position: absolute
             bottom: 0
             left: 50%
-            transform: translateX(calc( -50% - 19px )) 
+            transform: translateX(calc( -50% - 19px ))
             color: #c70101
             font-size: 14px
             font-weight: 500
@@ -140,17 +148,4 @@
             display: block
             font-family: 'Open Sans Light'
             &:hover
-                color: #c70101        
-                    
-
-        
-                 
-
-                
-
-
-
-
-         
-
-                
+                color: #c70101
