@@ -83,6 +83,14 @@ $('.overlayinfo__close').on('click', function () {
   $('.overlayinfo').fadeOut();
 });
 
+$('.deepone').on('click', function () {
+  $('.overlayinfoone').fadeIn();
+});
+
+$('.overlayinfoone__close').on('click', function () {
+  $('.overlayinfoone').fadeOut();
+});
+
 
 
 $('.button_mini').each(function (i) {
