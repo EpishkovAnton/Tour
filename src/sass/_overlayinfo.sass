@@ -1,4 +1,43 @@
 .overlayinfo
+    overflow: auto
+    position: relative
+    display: none
+    position: fixed
+    width: 100%
+    height: 100%
+    top: 0
+    background-color: rgba(0,0,0,.56)
+    z-index: 1000
+    &__main
+        margin: 0 auto
+        margin-top: 50px
+        width: 1000px
+        height: 1000px
+        padding: 10px
+        &_1
+            background: url(../img/w.jpg)  center center/cover no-repeat
+        &_2
+            background: url(../img/mutnovskiy_vodopad_v.jpg)  center center/cover no-repeat
+        h3
+            font-family: 'Open Sans Light'
+            text-transform: uppercase
+            font-size: 20px
+            margin-bottom: 10px
+            text-align: center
+        p
+            font-family: 'Open Sans Light'
+            font-size: 15px
+
+    &__close
+        position: absolute
+        right: 10px
+        top: 10px
+        img
+            height: 50px
+            width: 50px
+
+.overlayinfoone
+    overflow: auto
     position: relative
     display: none
     position: fixed
@@ -33,7 +72,8 @@
             height: 50px
             width: 50px
 
-.overlayinfoone
+.overlayinfotwo
+    overflow: auto
     position: relative
     display: none
     position: fixed

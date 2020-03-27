@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header id="up" class="header">
         <div class="container">
             <div class="header__body">
                 <a href="#" class="header__logo">
@@ -24,16 +24,16 @@
                 <nav class="header__menu">
                     <ul class="header__list">
                         <li>
-                            <a href="#about" class="header__link">О нас</a>
+                            <a href="#about" class="header__link goto">О нас</a>
                         </li>
                         <li>
-                            <a href="#" class="header__link">Галерея</a>
+                            <a href="#gallery" class="header__link goto ">Галерея</a>
                         </li>
                         <li>
-                            <a href="#" class="header__link">Программы туров</a>
+                            <a href="#catalog" class="header__link goto">Программы туров</a>
                         </li>
                         <li>
-                            <a href="#" class="header__link">Контакты</a>
+                            <a href="#footer" class="header__link goto">Контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -177,8 +177,8 @@
                                 Краткий список посещаемых экскурсионных объектов: <br><br>
                                 1. Зайкин ключ;
                                 2. Вилючинский водопад;
-                                3. Верхне-Паратунские / Карымшинские горячие источники. <br><br><br>
-                                <a href="#" class="deep">полное описание тура</a>
+                                3. Верхне-Паратунские / Карымшинские горячие источники. <br><br>
+                                <br><br> <a href="#" class="deep">полное описание тура</a>
                             </p>
                             <a href="#" class="catalog-item__back">НАЗАД</a>
                         </ul>
@@ -201,7 +201,7 @@
                             <img src="img/mutnovskiy_vodopad_v.jpg" alt="pulsometr" class="catalog-item__img">
                             <div class="catalog-item__subtittle">Восхождение на Мутновский вулкан /<br> Каньон Опасный
                                 <br>
-                            </div>
+                            </div><br>
                             <a href="#" class="catalog-item__link">Краткое описание</a>
                         </div>
                         <ul class="catalog-item__list">
@@ -211,6 +211,7 @@
                                 Продолжительность: 14-15 часов <br>
                                 Количество человек в группе: от 3 до 8
                                 (По заявке) <br><br>
+
                                 Краткий список посещаемых экскурсионных объектов: <br><br>
 
                                 1. Зайкин ключ;
@@ -244,7 +245,10 @@
                             <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
                         </div>
                         <ul class="catalog-item__list">
-                            <p>Описание тура</p>
+                            <p>Описание тура
+                                <br><br>
+                                <a href="#" class="deep">полное описание тура</a>
+                            </p>
                             <a href="#" class="catalog-item__back">НАЗАД</a>
                         </ul>
 
@@ -567,16 +571,18 @@
                 </div>
             </div>
         </div>
-
-
     </footer>
+
+    <a href="#up" class="pageup">
+        <img src="../icons/up.svg" alt="" class="up">
+    </a>
 
     <div class="overlayinfo">
         <div class="overlayinfo__close">
             <img src="icons/close.svg" alt="" class="1">
         </div>
         <div class="container">
-            <div class="overlayinfo__main">
+            <div class="overlayinfo__main overlayinfo__main_1">
                 <h3>Вилючинский водопад / Верхне-Паратунские горячие источники / Карымшинский горячие источники</h3>
                 <p></p>
             </div>
@@ -588,7 +594,19 @@
             <img src="icons/close.svg" alt="" class="1">
         </div>
         <div class="container">
-            <div class="overlayinfo__main">
+            <div class="overlayinfo__main overlayinfo__main_2">
+                <h3>Восхождение на Мутновский вулкан, каньон Опасный</h3>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlayinfotwo">
+        <div class="overlayinfotwo__close">
+            <img src="icons/close.svg" alt="" class="1">
+        </div>
+        <div class="container">
+            <div class="overlayinfo__main overlayinfo__main_3">
                 <h3>Восхождение на Мутновский вулкан, каньон Опасный</h3>
                 <p></p>
             </div>
